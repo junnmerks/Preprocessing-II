@@ -168,6 +168,40 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+header {
+  display: flex;
+}
+header h1 {
+  width: 48%;
+  padding-left: 9%;
+}
+header .header {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center ;
+  height: 5vh;
+  flex-direction: row;
+}
+header a {
+  font-size: 1.5rem;
+  color: #212529;
+  text-decoration: none;
+}
+header nav {
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+}
+.yellowbus {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.yellowbus img {
+  width: 82%;
+  size: 10%;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
