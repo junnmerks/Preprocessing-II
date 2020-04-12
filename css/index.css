@@ -183,18 +183,26 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.header,
+.yellowbus,
+.welcome {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
 header {
   display: flex;
 }
 header h1 {
   width: 48%;
-  padding-left: 9%;
+  padding-left: 1%;
 }
 header .header {
   width: 100%;
   display: flex;
   flex-wrap: nowrap;
-  align-items: center ;
+  align-items: center;
+  justify-content: space-between;
   height: 5vh;
   flex-direction: row;
 }
@@ -203,7 +211,7 @@ header a {
   text-decoration: none;
 }
 header nav {
-  width: 45%;
+  width: 48%;
   display: flex;
   justify-content: space-around;
 }
@@ -213,20 +221,15 @@ header nav {
   justify-content: center;
 }
 .yellowbus img {
-  width: 82%;
+  width: 100%;
+  border-radius: 10px;
 }
 .welcome {
   width: 100%;
-  padding-top: 3%;
-}
-.welcome h2 {
-  padding-left: 9%;
+  padding-top: 1%;
 }
 .welcome p {
-  padding: 0% 9%;
   width: 100%;
-  display: flex;
-  justify-content: center;
   padding-bottom: 4%;
   border-bottom: dashed 2px #C0C0C0;
 }
